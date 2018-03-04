@@ -1,0 +1,19 @@
+{
+  "name": "gplcart/composer-module-installer",
+  "description": "GplCart composer module installer",
+  "type": "composer-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Gplcart\\Composer\\ModuleInstaller\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Gplcart\\Composer\\ModuleInstaller\\Plugin"
+  },
+  "require": {
+    "php": ">=5.4",
+    "composer-plugin-api": "^1.0"
+  }
+}
